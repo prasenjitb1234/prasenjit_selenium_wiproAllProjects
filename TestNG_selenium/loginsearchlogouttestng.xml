@@ -1,0 +1,10 @@
+
+<suite name="LoginSearchLogoutSuite">
+    <test name="EbayLoginTest">
+        <parameter name="username" value="prasenjitbhosale1234@gmail.com"/>
+        <parameter name="password" value="bhosale@1234"/>
+        <classes>
+            <class name="TestNG_practiceQuestions18August.LoginSearchLogoutDependant"/>
+        </classes>
+    </test>
+</suite>

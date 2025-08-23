@@ -1,0 +1,10 @@
+
+<suite name="ParameterTestSuite">
+    <test name="LoginPageParameterTest">
+        <parameter name="username" value="prasenjit" />
+        <parameter name="password" value="bhosale" />
+        <classes>
+            <class name="TestNG_practiceQuestions18August.DummyLoginPageParameter"/>
+        </classes>
+    </test>
+</suite>

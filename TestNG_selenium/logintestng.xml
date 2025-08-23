@@ -1,0 +1,10 @@
+
+<suite name="ParameterSuite">
+    <test name="LoginPage">
+        <parameter name="username" value="prasenjit"/>
+        <parameter name="password" value="prasenjit123"/>
+        <classes>
+            <class name="LoginPage"/>
+        </classes>
+    </test>
+</suite>
