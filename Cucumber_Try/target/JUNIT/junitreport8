@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="136.572" tests="9" skipped="0" failures="2" errors="0" timestamp="2025-08-21T11:54:10.649669400Z">
+<testcase classname="Check user is able to login with valid credentials" name="Successful Login" time="19.542">
+<system-out><![CDATA[
+Given login page should open in default browser.............................passed
+When page loads click on signin button......................................passed
+And click on username and click continue....................................passed
+And click on password and click continue....................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check search feature" name="" time="9.022">
+<system-out><![CDATA[
+Given login user and searchbar available....................................passed
+When click on searchbar.....................................................passed
+And Enter inputs then use keyboard enter key................................passed
+Then list of output relevant to input.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check user is able to add item and remove from cart" name="" time="19.223">
+<system-out><![CDATA[
+Given Page should open in default browser...................................passed
+When Page loads navigate to product page....................................passed
+And Add item to cart........................................................passed
+And Go to Cart page.........................................................passed
+And remove item from cart...................................................passed
+Then removed item successfully..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is albe to filter product" name="" time="13.198">
+<system-out><![CDATA[
+Given filter page should open in default broweser...........................passed
+When search and navigate to product page....................................passed
+And Apply Filter............................................................passed
+Then successfully Applied Filter............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check user is able to shop items by category" name="Successfully able to view category" time="19.906">
+<system-out><![CDATA[
+Given Page opens in ebay website............................................passed
+When page loads click on shopbycategory.....................................passed
+And click on computers and navigate back....................................passed
+And click on cameras and navigate back......................................passed
+And click on video games and navigate back..................................passed
+Then successfully shop by category is working...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check user is able to shop items by all categories" name="Successfully Able to shop by all category" time="6.857">
+<system-out><![CDATA[
+Given Page opens in ebay all categories.....................................passed
+When page loads click on All Categories.....................................passed
+And select one category and press enter.....................................passed
+Then successfully Shop By All category is working...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Change Page to another COuntry" name="Check Flaf and click" time="0.013">
+<failure/>
+<system-out><![CDATA[
+Given All Flags.............................................................undefined
+When Click on any flag......................................................skipped
+Then Choosed flag...........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Product Detail Page" name="Whole Product description is displayed in new tab" time="0.005">
+<failure/>
+<system-out><![CDATA[
+Given Ebay WebPage on browser...............................................undefined
+When Click on  product......................................................skipped
+Then Product is Displayed...................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to change the addess" name="successful change address" time="48.436">
+<system-out><![CDATA[
+Given address page should be open in default browsers.......................passed
+When click on address.......................................................passed
+And click on edit button to chnage address..................................passed
+Then successfully change address............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
