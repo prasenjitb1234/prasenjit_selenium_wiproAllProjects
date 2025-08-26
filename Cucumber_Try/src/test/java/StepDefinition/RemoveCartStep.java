@@ -33,6 +33,7 @@ public class RemoveCartStep {
 //
 //	@Then("successfully removed item from cart")
 //	public void successfully_removed_item_from_cart() {
-//		
+//	
+	//
 //	}
 }
