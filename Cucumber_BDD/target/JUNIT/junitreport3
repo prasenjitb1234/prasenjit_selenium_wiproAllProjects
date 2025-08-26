@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="28.379" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-08-21T07:17:08.703454700Z">
+<testcase classname="validate login page" name="Check for valid and invalid credentials - #1.1" time="5.157">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on login button and enter 877676 and password....................passed
+And click on signin button check fail.......................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="Check for valid and invalid credentials - #1.2" time="4.695">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on login button and enter username and ngd46.....................passed
+And click on signin button check fail.......................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="Check for valid and invalid credentials - #1.3" time="4.006">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on login button and enter jhdkh7565 and jkwyidt76................passed
+And click on signin button check fail.......................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="Check for valid and invalid credentials - #1.4" time="5.461">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on login button and enter username and password..................passed
+And click on signin button check success....................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="" time="0.002">
+</testcase>
+<testcase classname="search feature" name="check search feature - #1.1" time="4.336">
+<system-out><![CDATA[
+Given login user and search button available................................passed
+When Enter item and then use keyboard enter key.............................passed
+Then List of output relevant to input.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="search feature" name="check search feature - #1.2" time="4.398">
+<system-out><![CDATA[
+Given login user and search button available................................passed
+When Enter item and then use keyboard enter key.............................passed
+Then List of output relevant to input.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
